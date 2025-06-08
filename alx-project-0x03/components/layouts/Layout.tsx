@@ -3,7 +3,7 @@
 import React from "react";
 import Header from "@/components/layouts/Header";
 import Footer from "@/components/layouts/Footer";
-import { LayoutProps } from "@/interface";
+import { LayoutProps } from "@/interface/index.ts";
 
 const Layout: React.FC<LayoutProps> = ({ children, pageRoute }) => {
   return (
